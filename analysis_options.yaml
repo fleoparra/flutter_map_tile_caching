@@ -2,7 +2,7 @@ include: jaffa_lints.yaml
 
 analyzer:
   exclude:
-    - lib/**.g.dart
+    - lib/src/db/defs/*.g.dart
 
 linter:
   rules:
